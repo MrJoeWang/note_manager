@@ -1,5 +1,6 @@
 from datetime import datetime as dt, timedelta  # импорт класса datetime
-
+current_datetime = dt.now()
+print("Текущая дата" , current_datetime)
 
 def uni(list_, title_):                 # проверка уникальности заметки
     if list_ is not None:
